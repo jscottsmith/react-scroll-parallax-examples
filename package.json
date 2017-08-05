@@ -4,7 +4,7 @@
   "description": "React parallax examples using react-scroll-parallax npm package",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jscottsmith/react-scroll-parallax-example"
+    "url": "https://github.com/jscottsmith/react-scroll-parallax-examples"
   },
   "main": "lib/index.js",
   "scripts": {
