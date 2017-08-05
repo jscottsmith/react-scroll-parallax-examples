@@ -9,17 +9,3 @@ Examples of parallax with React using [react-scroll-parallax](https://jscottsmit
 🔗 [Example Site](https://jscottsmith.github.io/react-scroll-parallax-examples/examples/parallax-example/)
 
 🔗 [Parallax Testing](https://jscottsmith.github.io/react-scroll-parallax-examples/examples/parallax-test/)
-
-## Development
-
-Install node modules and start webpack:
-
-`npm i`
-
-Run webpack watch:
-
-`npm run dev`
-
-Run dev server:
-
-`npm run dev-server`

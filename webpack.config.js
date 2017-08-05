@@ -1,5 +1,7 @@
-// Change this root to point to the desired example when
+// Change this root to point to the desired example
+
 const EXAMPLE_ROOT = './examples/parallax-example/';
+// const EXAMPLE_ROOT = './examples/parallax-test/';
 
 const createBabelConfig = require('./babelrc');
 const merge = require('webpack-merge');
