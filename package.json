@@ -1,25 +1,20 @@
 {
-  "name": "react-scroll-parallax",
-  "version": "1.0.0-beta.0",
-  "description": "React component to create parallax scrolling effects",
+  "name": "react-scroll-parallax-examples",
+  "version": "1.0.0",
+  "description": "React parallax examples using react-scroll-parallax npm package",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jscottsmith/react-scroll-parallax"
+    "url": "https://github.com/jscottsmith/react-scroll-parallax-example"
   },
   "main": "lib/index.js",
   "scripts": {
-    "dev": "jest && webpack --progress --colors --watch",
+    "dev": "webpack --progress --colors --watch",
     "dev-server": "node ./examples/parallax-example/dist/server",
     "gh-pages": "NODE_ENV=production webpack --progress --colors",
-    "test": "jest",
     "prepublish": "babel ./src --out-dir ./lib --presets es2015,react,stage-0 --plugins babel-plugin-add-module-exports"
   },
-  "jest": {
-    "modulePaths": [
-      "<rootDir>/src/"
-    ]
-  },
   "keywords": [
+    "examples",
     "react",
     "parallax",
     "scroll",
@@ -30,12 +25,12 @@
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-proptypes": "^1.0.0"
+    "react-proptypes": "^1.0.0",
+    "react-scroll-parallax": "^1.0.0-beta.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.23.1",
-    "babel-jest": "^20.0.3",
     "babel-loader": "^6.3.2",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-env": "^1.1.8",
@@ -46,7 +41,6 @@
     "css-loader": "^0.28.0",
     "express": "^4.14.1",
     "file-loader": "^0.11.1",
-    "jest": "^20.0.4",
     "node-sass": "^4.5.0",
     "postcss-loader": "^1.3.3",
     "raw-loader": "^0.5.1",
