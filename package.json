@@ -10,8 +10,7 @@
   "scripts": {
     "dev": "webpack --progress --colors --watch",
     "dev-server": "node ./examples/parallax-example/dist/server",
-    "gh-pages": "NODE_ENV=production webpack --progress --colors",
-    "prepublish": "babel ./src --out-dir ./lib --presets es2015,react,stage-0 --plugins babel-plugin-add-module-exports"
+    "gh-pages": "NODE_ENV=production webpack --progress --colors"
   },
   "keywords": [
     "examples",
@@ -26,7 +25,7 @@
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-proptypes": "^1.0.0",
-    "react-scroll-parallax": "^1.0.0-beta.1"
+    "react-scroll-parallax": "^1.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
