@@ -1,7 +1,8 @@
 {
   "name": "react-scroll-parallax-examples",
   "version": "1.0.0",
-  "description": "React parallax examples using react-scroll-parallax npm package",
+  "description":
+    "React parallax examples using react-scroll-parallax npm package",
   "repository": {
     "type": "git",
     "url": "https://github.com/jscottsmith/react-scroll-parallax-examples"
@@ -12,20 +13,14 @@
     "dev-server": "node ./examples/parallax-example/dist/server",
     "gh-pages": "NODE_ENV=production webpack --progress --colors"
   },
-  "keywords": [
-    "examples",
-    "react",
-    "parallax",
-    "scroll",
-    "component"
-  ],
+  "keywords": ["examples", "react", "parallax", "scroll", "component"],
   "author": "J Scott Smith",
   "license": "ISC",
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-proptypes": "^1.0.0",
-    "react-scroll-parallax": "^1.0.2"
+    "react-scroll-parallax": "^1.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",

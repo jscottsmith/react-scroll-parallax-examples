@@ -6,3 +6,4 @@ export Svg from './Svg/Svg.js';
 export ShapeField from './ShapeField/ShapeField.js';
 export Overlap from './Overlap/Overlap.js';
 export TriangleGrid from './TriangleGrid/TriangleGrid.js';
+export App from './App/App.js';
