@@ -3496,9 +3496,9 @@ react-dom@^16.2.0:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-scroll-parallax@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/react-scroll-parallax/-/react-scroll-parallax-1.1.2.tgz#5925664213390a02052ed203f472626fc348b366"
+react-scroll-parallax@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-scroll-parallax/-/react-scroll-parallax-1.2.0.tgz#2784b9e279d8ab2b590ee6f23e09cfe7cd928455"
   dependencies:
     prop-types "^15.5.10"
 

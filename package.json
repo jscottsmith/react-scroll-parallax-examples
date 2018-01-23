@@ -20,7 +20,7 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scroll-parallax": "^1.1.2"
+    "react-scroll-parallax": "^1.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
