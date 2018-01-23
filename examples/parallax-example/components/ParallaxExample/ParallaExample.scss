@@ -27,11 +27,24 @@
         background-color: lighten($plum, 10%);
         padding: 0.2em 0.4em;
         border-radius: 3px;
+        color: $tan;
     }
 
     p {
         margin: 2em 0;
-        font-size: 1.2em;
+        font-size: 1.5em;
+        line-height: 1.6;
+        color: lighten($purple, 20%);
+
+        &.small {
+            font-size: 1.2em;
+            line-height: 2.2;
+        }
+    }
+
+    br {
+        display: block;
+        margin: 0.5em 0;
     }
 
     * {
