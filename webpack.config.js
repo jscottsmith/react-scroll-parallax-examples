@@ -15,6 +15,12 @@ const baseConfig = {
             components: path.resolve(EXAMPLE_ROOT + 'components'),
         },
     },
+
+    plugins: [
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+        }),
+    ],
 };
 
 const clientConfig = merge(baseConfig, {

@@ -9,8 +9,8 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "dev": "webpack --progress --colors --watch",
-    "dev-server": "node ./examples/parallax-example/dist/server",
+    "dev": "NODE_ENV=dev webpack --progress --colors --watch",
+    "dev-server": "NODE_ENV=dev node ./examples/parallax-example/dist/server",
     "gh-pages": "NODE_ENV=production webpack --progress --colors"
   },
   "keywords": ["examples", "react", "parallax", "scroll", "component"],
