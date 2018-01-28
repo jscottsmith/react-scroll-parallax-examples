@@ -1,6 +1,6 @@
 # React Scroll Parallax Examples
 
-Examples of parallax with React using [react-scroll-parallax](https://jscottsmith.github.io/react-scroll-parallax/).
+Examples of parallax with React using [react-scroll-parallax](https://github.com/jscottsmith/react-scroll-parallax).
 
 [View react-scroll-parallax on NPM](https://www.npmjs.com/package/react-scroll-parallax)
 
