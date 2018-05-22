@@ -28,10 +28,20 @@
     right: 0;
 }
 
+:local(.headline) {
+    font-size: 2em;
+    color: $purple;
+}
+
 :local(.copy) {
     margin-right: 5em;
     flex-grow: 1;
-    text-align: center;
+    text-align: left;
+    max-width: 500px;
+
+    code {
+        font-size: 0.8em;
+    }
 }
 
 :local(.trianglesPurple) {
@@ -43,6 +53,5 @@
 
 :local(.trianglesWhite) {
     svg {
-
     }
 }

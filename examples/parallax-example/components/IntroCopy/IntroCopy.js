@@ -12,7 +12,7 @@ const copy = 'Parallax'.split('');
 const IntroCopy = () => (
     <div className={style.root}>
         <div className={style.barTop} />
-        <h1 className={style.copy}>
+        <span className={`${style.copy} h1`}>
             {copy.map((letter, i) => (
                 <Parallax
                     key={`copy-${i}`}
@@ -22,7 +22,7 @@ const IntroCopy = () => (
                     {letter}
                 </Parallax>
             ))}
-        </h1>
+        </span>
         <div className={style.barBottom} />
     </div>
 );
