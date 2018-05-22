@@ -7,19 +7,21 @@ import gridWhite from '!!raw-loader!./grid-white.svg';
 import angleTop from '!!raw-loader!../shared/angle-dark-top.svg';
 
 const TriangleGrid = () => (
-    <div className={style.root}>
+    <main className={style.root}>
         <Svg svg={angleTop} className={style.angleTop} />
         <article className={style.copy}>
+            <h1 className={style.headline}>React Scroll Parallax</h1>
             <p>
-                Provides a React component and single passive scroll listener to
-                add vertical scrolling based offsets to elements based on their
-                position in the viewport. Works with universal (server-side
-                rendered) React apps.
+                React components to create parallax scroll effects for banners,
+                images or any other DOM elements. Uses a single scroll listener
+                to add vertical scrolling based offsets to elements based on
+                their position in the viewport. Optimized to reduce jank on
+                scroll and works with universal (server-side rendered) React
+                apps.
             </p>
-            <p className="small">
-                <code>npm i react-scroll-parallax --save</code>
-                <br />
+            <p>
                 <code>yarn add react-scroll-parallax</code>
+                <code>npm i react-scroll-parallax</code>
             </p>
             <p>
                 <a
@@ -49,7 +51,7 @@ const TriangleGrid = () => (
                 <Svg svg={gridWhite} className={style.trianglesWhite} />
             </Parallax>
         </div>
-    </div>
+    </main>
 );
 
 export default TriangleGrid;

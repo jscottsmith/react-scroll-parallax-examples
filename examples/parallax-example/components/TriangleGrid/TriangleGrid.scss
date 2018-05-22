@@ -28,14 +28,19 @@
     right: 0;
 }
 
+:local(.headline) {
+    font-size: 2em;
+    color: $purple;
+}
+
 :local(.copy) {
     margin: 0 auto;
     flex-grow: 1;
-    text-align: center;
-    max-width: 480px;
+    text-align: left;
+    max-width: 500px;
 
-    :global(.btn) {
-        margin: 0 0.2em;
+    code {
+        font-size: 0.8em;
     }
 }
 
