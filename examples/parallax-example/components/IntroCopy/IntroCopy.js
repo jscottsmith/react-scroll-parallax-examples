@@ -1,13 +1,13 @@
-import React from 'react';
-import style from './IntroCopy.scss';
-import { Parallax } from 'react-scroll-parallax';
+import React from "react";
+import style from "./IntroCopy.scss";
+import { Parallax } from "react-scroll-parallax";
 
 // function modulo(a, b) {
 //     return ((a % b) + b) % b;
 // }
 // const modulo = copy.length % 2;
 
-const copy = 'Parallax'.split('');
+const copy = "Parallax".split("");
 
 const IntroCopy = () => (
     <div className={style.root}>
@@ -16,7 +16,7 @@ const IntroCopy = () => (
             {copy.map((letter, i) => (
                 <Parallax
                     key={`copy-${i}`}
-                    offsetXMax={100 * (i - 3)}
+                    x={[0, 100 * (i - 3)]}
                     className={style.letter}
                 >
                     {letter}

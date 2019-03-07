@@ -1,49 +1,54 @@
 {
-  "name": "react-scroll-parallax-examples",
-  "version": "1.0.0",
-  "description":
-    "React parallax examples using react-scroll-parallax npm package",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jscottsmith/react-scroll-parallax-examples"
-  },
-  "main": "lib/index.js",
-  "scripts": {
-    "dev": "NODE_ENV=dev webpack --progress --colors --watch",
-    "dev-server": "NODE_ENV=dev node ./examples/parallax-example/dist/server",
-    "gh-pages": "NODE_ENV=production webpack --progress --colors"
-  },
-  "keywords": ["examples", "react", "parallax", "scroll", "component"],
-  "author": "J Scott Smith",
-  "license": "ISC",
-  "dependencies": {
-    "prop-types": "^15.6.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scroll-parallax": "^1.2.0"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.23.1",
-    "babel-loader": "^6.3.2",
-    "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-preset-env": "^1.1.8",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.23.0",
-    "babel-preset-stage-0": "^6.24.1",
-    "cross-env": "^3.1.4",
-    "css-loader": "^0.28.0",
-    "express": "^4.14.1",
-    "file-loader": "^0.11.1",
-    "node-sass": "^4.5.0",
-    "postcss-loader": "^1.3.3",
-    "raw-loader": "^0.5.1",
-    "regenerator-runtime": "^0.10.5",
-    "sass-loader": "^6.0.3",
-    "style-loader": "^0.16.1",
-    "url-loader": "^0.5.8",
-    "webpack": "^2.2.1",
-    "webpack-merge": "^4.1.0",
-    "webpack-node-externals": "^1.5.4"
-  }
+    "name": "react-scroll-parallax-examples",
+    "version": "1.0.0",
+    "description": "React parallax examples using react-scroll-parallax npm package",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jscottsmith/react-scroll-parallax-examples"
+    },
+    "main": "lib/index.js",
+    "scripts": {
+        "dev": "NODE_ENV=dev webpack --progress --colors --watch",
+        "dev-server": "NODE_ENV=dev node ./examples/parallax-example/dist/server",
+        "gh-pages": "NODE_ENV=production webpack --progress --colors"
+    },
+    "keywords": [
+        "examples",
+        "react",
+        "parallax",
+        "scroll",
+        "component"
+    ],
+    "author": "J Scott Smith",
+    "license": "ISC",
+    "dependencies": {
+        "prop-types": "^15.6.0",
+        "react": "^16.3.0",
+        "react-dom": "^16.3.0",
+        "react-scroll-parallax": "^2.0.0"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-core": "^6.23.1",
+        "babel-loader": "^6.3.2",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-preset-env": "^1.1.8",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.23.0",
+        "babel-preset-stage-0": "^6.24.1",
+        "cross-env": "^3.1.4",
+        "css-loader": "^0.28.0",
+        "express": "^4.14.1",
+        "file-loader": "^0.11.1",
+        "node-sass": "^4.5.0",
+        "postcss-loader": "^1.3.3",
+        "raw-loader": "^0.5.1",
+        "regenerator-runtime": "^0.10.5",
+        "sass-loader": "^6.0.3",
+        "style-loader": "^0.16.1",
+        "url-loader": "^0.5.8",
+        "webpack": "^2.2.1",
+        "webpack-merge": "^4.1.0",
+        "webpack-node-externals": "^1.5.4"
+    }
 }
