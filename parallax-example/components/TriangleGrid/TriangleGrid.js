@@ -1,6 +1,6 @@
 import React from "react";
 import * as style from "./TriangleGrid.module.scss";
-import { Svg } from "../";
+import { Svg } from "..";
 import { Parallax } from "react-scroll-parallax";
 import gridPurple from "bundle-text:./grid-purple.svg";
 import gridWhite from "bundle-text:./grid-white.svg";
@@ -55,7 +55,7 @@ const TriangleGrid = () => (
         <Svg svg={gridPurple} className={style.trianglesPurple} />
       </Parallax>
       <Parallax translateX={[-13, 13]} translateY={[-50, 50]}>
-        <Svg svg={gridWhite} className={style.trianglesWhite} />
+        <Svg svg={gridWhite} />
       </Parallax>
     </div>
   </main>
