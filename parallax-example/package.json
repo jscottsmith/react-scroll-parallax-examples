@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn parcel index.html",
-    "build": "yarn parcel build index.html"
+    "build": "yarn parcel build index.html",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@parcel/transformer-inline-string": "^2.2.1",
