@@ -9,7 +9,7 @@ import {
   ShapeField,
 } from "../";
 
-import style from "./ParallaExample.module.scss";
+import * as style from "./ParallaExample.module.scss";
 
 import noisePattern from "bundle-text:../shared/noise-pattern.svg";
 import dotPattern from "bundle-text:../shared/dot-pattern.svg";

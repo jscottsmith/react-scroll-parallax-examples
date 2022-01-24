@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Overlap.module.scss";
+import * as style from "./Overlap.module.scss";
 import { Svg } from "../";
 import { Parallax } from "react-scroll-parallax";
 import circle from "bundle-text:./circle.svg";

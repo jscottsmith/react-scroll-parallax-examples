@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Marquee.module.scss";
+import * as style from "./Marquee.module.scss";
 import { Svg } from "../";
 import { Parallax } from "react-scroll-parallax";
 import boxBg from "bundle-text:./box-bg.svg";

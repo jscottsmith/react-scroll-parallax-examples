@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./TriangleGrid.module.scss";
+import * as style from "./TriangleGrid.module.scss";
 import { Svg } from "../";
 import { Parallax } from "react-scroll-parallax";
 import gridPurple from "bundle-text:./grid-purple.svg";

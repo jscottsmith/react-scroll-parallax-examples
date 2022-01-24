@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./IntroCopy.module.scss";
+import * as style from "./IntroCopy.module.scss";
 import { Parallax } from "react-scroll-parallax";
 
 const copy = "Parallax".split("");

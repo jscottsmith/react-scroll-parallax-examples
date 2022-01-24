@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from "react-scroll-parallax";
-import style from "./Intro.module.scss";
+import * as style from "./Intro.module.scss";
 import { Svg } from "../";
 import ring from "bundle-text:./ring-of-dots.svg";
 import hemispheres from "bundle-text:./hemispheres.svg";

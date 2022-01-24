@@ -1,6 +1,6 @@
 import React from "react";
 
-import style from "./Svg.module.scss";
+import * as style from "./Svg.module.scss";
 
 export default function Svg(props) {
   const Element = props.el;

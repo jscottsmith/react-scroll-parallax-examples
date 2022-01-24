@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Parallax } from "react-scroll-parallax";
 import { Svg } from "../";
 
-import style from "./ShapeField.module.scss";
+import * as style from "./ShapeField.module.scss";
 
 import cluster01HemiLeft from "bundle-text:./cluster-01-hemi-left.svg";
 import cluster01HemiRight from "bundle-text:./cluster-01-hemi-right.svg";
