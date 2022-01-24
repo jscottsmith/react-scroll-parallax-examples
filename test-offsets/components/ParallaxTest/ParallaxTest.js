@@ -1,11 +1,11 @@
 import React from "react";
 import { Parallax } from "react-scroll-parallax";
-import * as style from "./ParallaxTest.scss";
+import * as style from "./ParallaxTest.module.scss";
 
 const INC_AMOUNT = 10;
 const START_NUM_ELEMENTS = 10;
 
-export default class ParallaxTest extends React.Component {
+export class ParallaxTest extends React.Component {
   state = {
     elements: new Array(START_NUM_ELEMENTS).fill(null).map((x, i) => i),
     offsetY: INC_AMOUNT,
@@ -73,23 +73,23 @@ export default class ParallaxTest extends React.Component {
 
     return this.state.elements.map((number, i) => {
       const unit = this.state.unitPercent ? "%" : "px";
-      const offsetYMin = offsetY * -1 * i + unit;
-      const offsetYMax = offsetY * i + unit;
+
+      const a = offsetY * -1 * i + unit;
+      const b = offsetY * i + unit;
+
+      const translateY = slowerScrollRate ? [a, b] : [b, a];
 
       return (
-        <Parallax
-          key={i}
-          tag="span"
-          disabled={this.state.disabled}
-          offsetYMax={offsetYMax}
-          offsetYMin={offsetYMin}
-          offsetXMax={0}
-          offsetXMin={0}
-          className={style.item}
-          slowerScrollRate={slowerScrollRate}
-        >
-          {number}
-        </Parallax>
+        <span className={`${style.item} parallax-outer`}>
+          <Parallax
+            key={i}
+            disabled={this.state.disabled}
+            translateY={translateY}
+            className="parallax-inner"
+          >
+            {number}
+          </Parallax>
+        </span>
       );
     });
   }
@@ -102,7 +102,7 @@ export default class ParallaxTest extends React.Component {
           <div className={style.currentState}>
             <h4>
               Parallax Elements:
-              <span className="value">{this.state.elements.length}</span>
+              <span className={style.value}>{this.state.elements.length}</span>
             </h4>
             <button onClick={this.handleAdd}>Add</button>
             <button onClick={this.handleRemove}>Remove</button>
@@ -110,7 +110,7 @@ export default class ParallaxTest extends React.Component {
           <div className={style.currentState}>
             <h4>
               Y Offsets:
-              <span className="value">
+              <span className={style.value}>
                 {this.state.offsetY}
                 {this.state.unitPercent ? "%" : "px"}
               </span>
@@ -120,9 +120,20 @@ export default class ParallaxTest extends React.Component {
           </div>
           <div className={style.currentState}>
             <h4>
-              Speed:
-              <span className="value">
-                {this.state.slowerScrollRate ? "Slower" : "Faster"}
+              translatY:
+              <span className={style.value}>
+                {this.state.slowerScrollRate
+                  ? `[-${this.state.offsetY}${
+                      this.state.unitPercent ? "%" : "px"
+                    }, ${this.state.offsetY}${
+                      this.state.unitPercent ? "%" : "px"
+                    }]`
+                  : `[${this.state.offsetY}${
+                      this.state.unitPercent ? "%" : "px"
+                    }, -${this.state.offsetY}${
+                      this.state.unitPercent ? "%" : "px"
+                    }]`}
+                {/* {this.state.slowerScrollRate ? "Slower" : "Faster"} */}
               </span>
             </h4>
             <button onClick={this.toggleSpeed}>
@@ -132,7 +143,7 @@ export default class ParallaxTest extends React.Component {
           <div className={style.currentState}>
             <h4>
               Unit:
-              <span className="value">
+              <span className={style.value}>
                 {this.state.unitPercent ? "Percent" : "Pixels"}
               </span>
             </h4>
@@ -143,7 +154,7 @@ export default class ParallaxTest extends React.Component {
           <div className={style.currentState}>
             <h4>
               Disabled:
-              <span className="value">
+              <span className={style.value}>
                 {this.state.disabled ? "True" : "False"}
               </span>
             </h4>
