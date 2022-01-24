@@ -1,0 +1,411 @@
+.root_326fa0 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.scroll_326fa0 {
+  position: absolute;
+  bottom: 5em;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #3d3547;
+  font-weight: 500;
+}
+
+.container_326fa0 {
+  position: relative;
+  width: 25em;
+}
+
+.ring_326fa0 {
+  position: relative;
+  z-index: 2;
+}
+
+.circle_326fa0 {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  z-index: 1;
+}
+
+.circle_326fa0 .parallaxInner_326fa0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #3d3547;
+  border-radius: 50%;
+}
+
+.circleInner_326fa0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #3d3547;
+  border-radius: 50%;
+}
+
+.hemispheres_326fa0 {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+}
+.root_3469f7 {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: space-around;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.copy_3469f7 {
+  margin: 0.2em 0;
+  text-align: center;
+}
+
+.barTop_3469f7 {
+  margin-left: 0.8em;
+  width: 20em;
+  height: 1.5em;
+  border-top: 0.45em solid #a179af;
+  border-bottom: 0.45em solid #a179af;
+  transform: skew(-10deg);
+}
+
+.barBottom_3469f7 {
+  width: 20em;
+  height: 1.5em;
+  border-top: 0.45em solid #a179af;
+  border-bottom: 0.45em solid #a179af;
+  transform: skew(-10deg);
+  margin-left: 0;
+  margin-right: 0.8em;
+}
+
+.letter_3469f7 {
+  display: inline-block;
+}
+.root_bf4c37 {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50vh;
+  margin-bottom: 50vh;
+}
+
+.divider_bf4c37 {
+  display: block;
+  width: 100%;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+}
+
+.container_bf4c37 {
+  position: relative;
+  width: 40em;
+}
+
+.boxOutline_bf4c37 {
+  position: absolute;
+  top: 20%;
+  right: 7%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.boxBg_bf4c37 {
+  width: 100%;
+}
+
+.text_bf4c37 {
+  position: absolute;
+  top: 28%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.root_2c81fc {
+  background-color: #edeaea;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Mono", san-serif;
+  color: #edeaea;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+h1, .h1 {
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.3em;
+  color: #3d3547;
+}
+
+code {
+  display: inline-block;
+  margin: 0 0.4em 0 0;
+  font-family: "Roboto Mono", san-serif;
+  background-color: #564b64;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+p {
+  margin: 2em 0;
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #cac1c1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #edeaea;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #a179af;
+}
+
+hr {
+  width: 100%;
+  height: 3em;
+  background-color: #fff;
+  border: none;
+}
+
+.btn {
+  display: inline-block;
+  border: 2px solid #a179af;
+  padding: 0.6em 1em;
+  color: #a179af;
+  font-weight: 500;
+  margin-right: 1em;
+}
+
+.btn:hover {
+  background-color: #a179af;
+  color: #edeaea;
+}
+
+.visually-hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+.root_18582c {
+  display: block;
+}
+.root_18582c svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.root_72dadf {
+  position: relative;
+  margin-top: 25vh;
+  height: 75vh;
+}
+
+.shapeCluster01_72dadf {
+  position: absolute;
+  top: 0%;
+  left: 40%;
+  width: 8em;
+}
+
+.shapeCluster01_72dadf .hemiLeft_72dadf {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+}
+
+.shapeCluster01_72dadf .hemiRight_72dadf {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+}
+
+.shapeCluster02_72dadf {
+  position: absolute;
+  left: 5%;
+  top: 25%;
+  width: 18em;
+  height: 30em;
+}
+
+.shapeCluster02_72dadf .triangleBig_72dadf {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  width: 60%;
+}
+
+.shapeCluster02_72dadf .triangleSmall_72dadf {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60%;
+}
+
+.shapeCluster02_72dadf .hemi_72dadf {
+  position: absolute;
+  right: 0;
+  bottom: 30%;
+  width: 40%;
+}
+
+.shapeCluster03_72dadf {
+  position: absolute;
+  top: 90%;
+  left: 45%;
+  width: 17em;
+  height: 10em;
+}
+
+.shapeCluster03_72dadf .triangleTop_72dadf {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.shapeCluster03_72dadf .triangleBottom_72dadf {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.shapeCluster03_72dadf .triangleBig_72dadf {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 80%;
+}
+
+.shapeCluster04_72dadf {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  width: 16em;
+}
+
+.shapeCluster04_72dadf .triangle_72dadf {
+  position: absolute;
+  width: 66.666%;
+  top: 0;
+  left: 0;
+}
+
+.shapeCluster04_72dadf .square_72dadf {
+  position: absolute;
+  width: 66.666%;
+  right: 0;
+  top: 0;
+}
+
+.shapeCluster04_72dadf .hemiRight_72dadf {
+  position: absolute;
+  width: 33.333%;
+  right: 0;
+  top: 0;
+}
+.root_131573 {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: space-around;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25vh;
+  z-index: 1;
+}
+
+.container_131573 {
+  position: relative;
+  width: 30em;
+}
+
+.circleRings_131573 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.root_6b2282 {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25vh 2em;
+  background-color: #3d3547;
+}
+
+.container_6b2282 {
+  position: relative;
+  width: 25em;
+  margin-right: 10vw;
+  flex-shrink: 0;
+}
+
+.angleTop_6b2282 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+}
+
+.headline_6b2282 {
+  font-size: 2em;
+  color: #a179af;
+}
+
+.copy_6b2282 {
+  margin: 0 auto;
+  flex-grow: 1;
+  text-align: left;
+  max-width: 500px;
+}
+
+.copy_6b2282 code {
+  padding: 0.4em 1em;
+  font-size: 0.8em;
+  color: white;
+}
+
+.trianglesPurple_6b2282 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/*# sourceMappingURL=index.163e188a.css.map */
