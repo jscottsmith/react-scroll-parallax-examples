@@ -1,11 +1,11 @@
 {
   "name": "parallax-example",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "J Scott Smith",
   "license": "MIT",
   "scripts": {
-    "start": "yarn parcel index.html"
+    "start": "yarn parcel index.html",
+    "build": "yarn parcel build index.html"
   },
   "devDependencies": {
     "@parcel/transformer-inline-string": "^2.2.1",
