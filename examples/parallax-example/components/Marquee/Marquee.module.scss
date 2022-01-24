@@ -1,0 +1,48 @@
+//
+// Marquee
+// ---------------------------
+
+@import "../../styles/colors";
+
+.root {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50vh;
+  margin-bottom: 50vh;
+}
+
+.divider {
+  display: block;
+  width: 100%;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+}
+
+.container {
+  position: relative;
+  width: 40em;
+}
+
+.boxOutline {
+  position: absolute;
+  top: 20%;
+  right: 7%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.boxBg {
+  width: 100%;
+}
+
+.text {
+  position: absolute;
+  top: 28%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}

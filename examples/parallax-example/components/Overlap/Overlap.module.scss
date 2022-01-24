@@ -1,0 +1,27 @@
+@import "../../styles/colors";
+
+.root {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: space-around;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25vh;
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  width: 30em;
+}
+
+.circle {
+}
+
+.circleRings {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}

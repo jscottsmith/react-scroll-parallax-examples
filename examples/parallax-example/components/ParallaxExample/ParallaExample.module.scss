@@ -1,0 +1,84 @@
+@import "../../styles/colors";
+
+.root {
+  background-color: $tan;
+}
+
+:global {
+  body {
+    margin: 0;
+    font-family: "Roboto Mono", san-serif;
+    color: $tan;
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  h1,
+  .h1 {
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0.3em;
+    color: $plum;
+  }
+
+  code {
+    display: inline-block;
+    margin: 0 0.4em 0 0;
+    font-family: "Roboto Mono", san-serif;
+    background-color: lighten($plum, 10%);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+  }
+
+  p {
+    margin: 2em 0;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: darken($tan, 15%);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  a {
+    color: $tan;
+    text-decoration: none;
+    font-weight: bold;
+    &:hover {
+      color: $purple;
+    }
+  }
+
+  hr {
+    width: 100%;
+    height: 3em;
+    background-color: #fff;
+    border: none;
+  }
+
+  .btn {
+    display: inline-block;
+    border: 2px solid $purple;
+    padding: 0.6em 1em;
+    color: $purple;
+    font-weight: 500;
+    margin-right: 1em;
+
+    &:hover {
+      background-color: $purple;
+      color: $tan;
+    }
+  }
+
+  .visually-hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+  }
+}

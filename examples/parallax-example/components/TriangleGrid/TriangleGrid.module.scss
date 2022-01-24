@@ -1,0 +1,55 @@
+@import "../../styles/colors";
+
+.root {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25vh 2em;
+  background-color: $plum;
+}
+
+.container {
+  position: relative;
+  width: 25em;
+  margin-right: 10vw;
+  flex-shrink: 0;
+}
+
+.angleTop {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+}
+
+.headline {
+  font-size: 2em;
+  color: $purple;
+}
+
+.copy {
+  margin: 0 auto;
+  flex-grow: 1;
+  text-align: left;
+  max-width: 500px;
+
+  code {
+    padding: 0.4em 1em;
+    font-size: 0.8em;
+    color: white;
+  }
+}
+
+.trianglesPurple {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.trianglesWhite {
+  svg {
+  }
+}
