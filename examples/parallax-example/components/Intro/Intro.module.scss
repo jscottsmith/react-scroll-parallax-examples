@@ -1,0 +1,64 @@
+@import "../../styles/colors";
+
+.root {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.scroll {
+  position: absolute;
+  bottom: 5em;
+  left: 50%;
+  transform: translateX(-50%);
+  color: $plum;
+  font-weight: 500;
+}
+
+.container {
+  position: relative;
+  width: 25em;
+}
+
+.ring {
+  position: relative;
+  z-index: 2;
+}
+
+.circle {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  z-index: 1;
+
+  .parallaxInner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 3px solid $plum;
+    border-radius: 50%;
+  }
+}
+
+.circleInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 3px solid $plum;
+  border-radius: 50%;
+}
+
+.hemispheres {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+}

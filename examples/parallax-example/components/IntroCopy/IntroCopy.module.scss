@@ -1,0 +1,38 @@
+@import "../../styles/colors";
+
+.root {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: space-around;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.copy {
+  margin: 0.2em 0;
+  text-align: center;
+}
+
+.barTop {
+  margin-left: 0.8em;
+  width: 20em;
+  height: 1.5em;
+  border-top: 0.45em solid $purple;
+  border-bottom: 0.45em solid $purple;
+  transform: skew(-10deg);
+}
+
+.barBottom {
+  width: 20em;
+  height: 1.5em;
+  border-top: 0.45em solid $purple;
+  border-bottom: 0.45em solid $purple;
+  transform: skew(-10deg);
+  margin-left: 0;
+  margin-right: 0.8em;
+}
+
+.letter {
+  display: inline-block;
+}

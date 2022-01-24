@@ -1,5 +1,5 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 144 144" style="enable-background:new 0 0 144 144;" xml:space="preserve">
+	 viewBox="0 0 144 144" xml:space="preserve">
 <defs>
     <pattern id="dot-pattern" width="142" height="142" patternUnits="userSpaceOnUse">
 		<path fill="#a179af" d="M99.8,144L99.8,144l-3.7,0l0,0C97.1,143,98.8,143,99.8,144z M127.3,144h2.2C128.8,143.7,128,143.7,127.3,144z

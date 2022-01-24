@@ -1,9 +1,21 @@
-export Intro from './Intro/Intro.js';
-export IntroCopy from './IntroCopy/IntroCopy.js';
-export Marquee from './Marquee/Marquee.js';
-export ParallaxExample from './ParallaxExample/ParallaxExample.js';
-export Svg from './Svg/Svg.js';
-export ShapeField from './ShapeField/ShapeField.js';
-export Overlap from './Overlap/Overlap.js';
-export TriangleGrid from './TriangleGrid/TriangleGrid.js';
-export App from './App/App.js';
+import Intro from "./Intro/Intro";
+import IntroCopy from "./IntroCopy/IntroCopy";
+import Marquee from "./Marquee/Marquee";
+import ParallaxExample from "./ParallaxExample/ParallaxExample";
+import Svg from "./Svg/Svg";
+import ShapeField from "./ShapeField/ShapeField";
+import Overlap from "./Overlap/Overlap";
+import TriangleGrid from "./TriangleGrid/TriangleGrid";
+import App from "./App/App";
+
+export {
+  Intro,
+  IntroCopy,
+  Marquee,
+  ParallaxExample,
+  Svg,
+  ShapeField,
+  Overlap,
+  TriangleGrid,
+  App,
+};

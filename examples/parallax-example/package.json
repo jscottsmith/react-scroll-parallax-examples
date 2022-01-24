@@ -1,0 +1,20 @@
+{
+  "name": "parallax-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "J Scott Smith",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn parcel index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.2.1",
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scroll-parallax": "^3.0.0"
+  }
+}
