@@ -8,6 +8,6 @@ A collection of examples in React using [`react-scroll-parallax`](https://github
 
 ## Examples
 
-🔗 [Example Site](https://react-scroll-parallax-examples.vercel.app/)
-
-🔗 [Parallax Testing](https://jscottsmith.github.io/react-scroll-parallax-examples/examples/parallax-test/)
+- [Example Site](https://react-scroll-parallax-examples.vercel.app/)
+- [Horizontal Scroll](https://react-scroll-parallax-horizontal-scroll.surge.sh/)
+- [Parallax Testing](https://jscottsmith.github.io/react-scroll-parallax-examples/examples/parallax-test/)
