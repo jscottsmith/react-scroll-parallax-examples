@@ -18,32 +18,26 @@ export default function ParallaxExample() {
   const parallax1 = useParallax({
     speed: -40,
     rotate: [-30, 30],
-    // scale: [1, 1.2],
   });
   const parallax2 = useParallax({
     speed: -20,
     rotate: [-30, 50],
-    // scale: [1, 0.9],
   });
   const parallax3 = useParallax({
     speed: 10,
     rotate: [-60, 0],
-    // scale: [1, 1.2],
   });
   const parallax4 = useParallax({
     speed: 20,
     rotate: [-30, 50],
-    // scale: [1, 0.9],
   });
   const parallax5 = useParallax({
     speed: 40,
     rotate: [-30, 30],
-    // scale: [1, 1.2],
   });
   const parallax6 = useParallax({
     speed: 60,
     rotate: [-30, 50],
-    // scale: [1, 0.9],
   });
 
   return (
@@ -82,7 +76,6 @@ export default function ParallaxExample() {
           <Spaceworms zIndex="4" />
           <Spaceworms zIndex="3" />
           <Spaceworms zIndex="5" />
-          {/* <Spaceworms zIndex="6" /> */}
         </div>
         <img
           src={worm1}
