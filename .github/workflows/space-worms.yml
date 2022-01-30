@@ -1,0 +1,40 @@
+name: Deploy Spaceworms
+
+on: [push]
+
+defaults:
+  run:
+    shell: bash
+    working-directory: space-worms
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Deploying to surge
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build
+        run: yarn build
+
+      - name: Install Surge
+        run: npm install --global surge
+
+      - name: Surge deploy
+        run: surge ./dist react-scroll-parallax-space-worms.surge.sh --token ${{ secrets.SURGE_TOKEN }}

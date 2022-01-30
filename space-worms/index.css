@@ -1,0 +1,11 @@
+.star {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 999;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

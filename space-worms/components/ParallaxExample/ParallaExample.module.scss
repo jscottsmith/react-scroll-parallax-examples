@@ -1,0 +1,55 @@
+.root {
+  position: relative;
+  height: 200vh;
+}
+
+.artist {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  text-align: right;
+  color: rgb(77, 103, 114);
+  font-family: monospace;
+  z-index: 100;
+
+  a {
+    color: rgb(67, 99, 187);
+  }
+}
+
+.layer {
+  position: absolute;
+  width: 120vw;
+  height: auto;
+}
+
+.layer1 {
+  top: 25%;
+  left: -40%;
+  z-index: 0;
+}
+.layer2 {
+  top: -40%;
+  left: 0%;
+  z-index: 1;
+}
+.layer3 {
+  top: -30%;
+  left: 15%;
+  z-index: 2;
+}
+.layer4 {
+  top: -5%;
+  left: -25%;
+  z-index: 3;
+}
+.layer5 {
+  top: -30%;
+  left: -30%;
+  z-index: 4;
+}
+.layer6 {
+  top: 20%;
+  left: 20%;
+  z-index: 5;
+}
