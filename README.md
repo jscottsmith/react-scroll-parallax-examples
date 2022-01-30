@@ -11,4 +11,4 @@ A collection of examples in React using [`react-scroll-parallax`](https://github
 - [Example Site](https://react-scroll-parallax-examples.vercel.app/)
 - [Horizontal Scroll](https://react-scroll-parallax-horizontal-scroll.surge.sh/)
 - [Parallax Testing](https://jscottsmith.github.io/react-scroll-parallax-examples/examples/parallax-test/)
-- [Spaceworms](https://react-scroll-parallax-space-worms.surge.sh/)
+<!-- - TODO: work on perf [Spaceworms](https://react-scroll-parallax-space-worms.surge.sh/) -->
