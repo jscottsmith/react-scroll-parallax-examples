@@ -1,0 +1,27 @@
+.star {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 999;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #40255b;
+}
+
+main {
+  height: 300vh;
+}
+
+p {
+  font-family: helvetica, sans-serif;
+  color: #eee;
+}
+
+.banner {
+  height: 100vh;
+  background: #bbe8f6;
+}
