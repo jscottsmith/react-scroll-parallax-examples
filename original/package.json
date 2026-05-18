@@ -4,7 +4,7 @@
   "author": "J Scott Smith",
   "license": "MIT",
   "engines": {
-    "node": ">=20"
+    "node": "20.x"
   },
   "scripts": {
     "start": "yarn parcel index.html",
@@ -15,7 +15,9 @@
     "@parcel/transformer-inline-string": "^2.12.0",
     "@parcel/transformer-sass": "^2.12.0",
     "gh-pages": "^3.2.3",
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "postcss": "^8.2.1",
+    "postcss-modules": "^6.0.0"
   },
   "dependencies": {
     "react": "^17.0.2",

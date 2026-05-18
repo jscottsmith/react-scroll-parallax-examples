@@ -1,5 +1,10 @@
 {
   "buildCommand": "yarn build",
   "outputDirectory": "dist",
-  "installCommand": "yarn install"
+  "installCommand": "yarn install --frozen-lockfile",
+  "build": {
+    "env": {
+      "PARCEL_AUTOINSTALL": "0"
+    }
+  }
 }
