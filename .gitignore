@@ -3,3 +3,4 @@ npm-debug.log
 .parcel-cache
 .DS_Store
 dist
+yarn-error.log
