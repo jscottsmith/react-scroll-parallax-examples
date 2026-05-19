@@ -25,11 +25,7 @@ export default class ShapeField extends Component {
     return (
       <div className={style.root}>
         <div className={style.shapeCluster01}>
-          <Parallax
-            translateY={[100, -100]}
-            className={style.hemiLeft}
-            slowerScrollRate
-          >
+          <Parallax translateY={[100, -100]} className={style.hemiLeft}>
             <Svg svg={cluster01HemiLeft} />
           </Parallax>
           <Svg svg={cluster01Rect} />
