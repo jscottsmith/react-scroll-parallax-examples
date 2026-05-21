@@ -1,9 +1,13 @@
 import React, { useRef } from "react";
 import { useParallax } from "react-scroll-parallax";
-import imageBg from "../../image/parallax-demon-woods-bg.png";
-import imageClose from "../../image/parallax-demon-woods-close-trees.png";
-import imageMid from "../../image/parallax-demon-woods-mid-trees.png";
-import imageFar from "../../image/parallax-demon-woods-far-trees.png";
+
+const imageBg = new URL("../../image/parallax-demon-woods-bg.png", import.meta.url).href;
+const imageClose = new URL(
+  "../../image/parallax-demon-woods-close-trees.png",
+  import.meta.url
+).href;
+const imageMid = new URL("../../image/parallax-demon-woods-mid-trees.png", import.meta.url).href;
+const imageFar = new URL("../../image/parallax-demon-woods-far-trees.png", import.meta.url).href;
 
 import * as styles from "./ParallaExample.module.scss";
 
